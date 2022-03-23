@@ -1,6 +1,6 @@
 # GildedRoseChallenge
 
-The repository contains of the refactored original console project, as well as an asp.net mvc project.
+The repository consists of the refactored original console project, as well as an asp.net mvc project.
 
 The latter can be found in the GildedRoseWeb folder.
 
