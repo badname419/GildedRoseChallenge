@@ -1,0 +1,44 @@
+﻿@model BaseItem
+
+<form method="post" asp-action="Edit">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Edit Item</h2>
+            <hr />
+        </div>
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="SellIn"></label>
+            <input asp-for="SellIn" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Quality"></label>
+            <input asp-for="Quality" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Type"></label>
+            <select asp-for="Type">
+                <option disabled selected>-- SELECT TYPE --</option>
+                <option value="Ordinary">Ordinary</option>
+                <option value="Cheese">Cheese</option>
+                <option value="Conjured">Conjured</option>
+                <option value="Legendary">Legendary</option>
+                <option value="Pass">Pass</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:150px">Edit</button>
+        <a asp-controller="Items" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back to Items List
+        </a>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

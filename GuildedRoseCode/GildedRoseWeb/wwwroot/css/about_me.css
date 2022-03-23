@@ -1,0 +1,100 @@
+﻿body {
+    text-align: justify;
+    overflow: scroll;
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+    #about .triangle-right {
+        margin-top: 95px;
+        width: 0;
+        height: 0;
+        border-top: 259px solid transparent;
+        border-left: 470px solid #d6c6b2;
+        border-bottom: 259px solid transparent;
+    }
+
+        #about .triangle-right img {
+            position: absolute;
+            left: -1px;
+            top: 81px;
+            width: 74%;
+        }
+
+.fa-play {
+    font-size: 100px;
+}
+
+#about .p-upper {
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+
+#about h2 {
+    margin-bottom: 47px;
+    margin-top: 12px;
+}
+
+
+#about .social-link-text {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#about .about-link {
+    padding-left: 0px;
+}
+
+    #about .about-link li {
+        display: inline-block;
+    }
+
+        #about .about-link li a i {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            line-height: 50px;
+            text-align: center;
+            margin-right: 10px;
+            font-size: 22px;
+            color: #3e3f3a;
+            transition: all .3s;
+        }
+
+
+            #about .about-link li a i:hover {
+                color: #325d88;
+            }
+
+
+#about .about-img {
+    position: relative;
+}
+
+#about .about-img {
+    position: relative;
+}
+
+    #about .about-img .profile-pic {
+        position: absolute;
+        bottom: 161px;
+        top: 12px;
+        left: -2px;
+    }
+
+.color-3 {
+    color: #325d88;
+}
+
+
+.text-white {
+    color: white;
+}
+
+.profile-pic{
+    width: 85%;
+}
