@@ -13,6 +13,8 @@
         protected int QualityLimit { get; set; } = 50;
 
         protected int ExpiredQualityModifier { get; set; } = 2;
+		
+		protected int AnotherRandomStat { get; set; } = 0;
 
         public int GetQualityLimit()
         {
