@@ -70,5 +70,10 @@
                 }
             }
         }
+		
+		public void UselessMethod()
+		{
+			
+		}
     }
 }
